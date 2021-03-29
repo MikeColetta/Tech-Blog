@@ -1,6 +1,7 @@
 .blog-card {
     border-width: 2px;
     border-color: black;
+    border-style: solid;
 }
 
 .card-header {
@@ -14,4 +15,13 @@
 .blog-author {
     float: right;
     font-size: medium;
+}
+
+.tech-blog {
+    font-size: x-large;
+    border-style: solid;
+    border-color: white;
+    border-width: thick;
+    border-radius: .25rem;
+    padding: 2px;
 }
