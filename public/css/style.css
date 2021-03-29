@@ -1,0 +1,17 @@
+.blog-card {
+    border-width: 2px;
+    border-color: black;
+}
+
+.card-header {
+    color: white;
+}
+
+.blog-title {
+    color: white;
+}
+
+.blog-author {
+    float: right;
+    font-size: medium;
+}
