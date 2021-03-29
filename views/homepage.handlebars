@@ -1,9 +1,11 @@
+<div class="container">
 {{#each posts as |post| }}
-<div class="card blog-card mb-4">
+<div class="card blog-card mb-3">
   <h5 class="card-header bg-dark">
     <a class="blog-title" href="/post/{{post.id}}">{{post.title}}</a>
-    <p class="blog-author">Created by {{post.user.name}} on {{format _date post.date_created}}</p>
+    <p class="blog-author">Created by {{post.user.name}} on {{format_date post.date_created}}</p>
   </h5>
   <p>{{post.body}}</p>
 </div>
 {{/each}}
+</div>

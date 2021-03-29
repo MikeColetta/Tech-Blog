@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,10 +15,10 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Home</a>
+                  <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Dashboard</a>
+                  <a class="nav-link" href="/dashboard">Dashboard</a>
                 </li>
                 {{#if logged_in}}
                 <li class="nav-item">
@@ -27,7 +26,7 @@
                 </li>
                 {{else}}
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Login</a>
+                  <a class="nav-link" href="/login">Login</a>
                 </li>
                 {{/if}}
               </ul>
@@ -36,6 +35,7 @@
               <h1 class="navbar-brand">The Tech Blog</h1>
           </nav>
     </header>
+    <br>
     <main>
         {{{ body }}}
     </main>
