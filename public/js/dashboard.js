@@ -16,7 +16,7 @@ const newFormHandler = async (event) => {
       if (response.ok) {
         document.location.replace('/dashboard');
       } else {
-        alert('Failed to create project');
+        alert('Failed to create blog post');
       }
     }
   };
@@ -32,7 +32,7 @@ const newFormHandler = async (event) => {
       if (response.ok) {
         document.location.replace('/dashboard');
       } else {
-        alert('Failed to delete project');
+        alert('Failed to delete blog post');
       }
     }
   };
