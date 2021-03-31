@@ -19,8 +19,8 @@ I created finished the back end database and server of an e-commerce website. I 
     
 ## Usage
 
-![Screenshot1]()
-![Screenshot2]()
+![Screenshot1](./images/Screenshot1.JPG)
+![Screenshot2](./images/Screenshot2.JPG)
 ![Screenshot3]()
 
 
