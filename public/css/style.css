@@ -1,11 +1,16 @@
+
+
 .blog-card {
-    border-width: 2px;
-    border-color: black;
-    border-style: solid;
+    border: solid black;
+    border-radius: .25rem;
 }
 
 .card-header {
     color: white;
+}
+
+.card-header:first-child {
+    border-radius: unset;
 }
 
 .blog-title {
@@ -28,4 +33,16 @@
 
 .input-text {
     color: white;
+}
+
+.post-list {
+    text-align: center;
+}
+
+.delete-button {
+    float: right;
+}
+
+.dashboard-name {
+    text-align: center;
 }
