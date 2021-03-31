@@ -21,6 +21,13 @@ const newFormHandler = async (event) => {
     }
   };
   
+  const editButtonHandler = async (event) => {
+    if (event.target.hasAttribute('data-id')) {
+      const id = event.target.getAttribute('data-id');
+      document.location.replace(`/edit/post/${id}`)
+    }
+  };
+
   const delButtonHandler = async (event) => {
     if (event.target.hasAttribute('data-id')) {
       const id = event.target.getAttribute('data-id');
@@ -40,8 +47,17 @@ const newFormHandler = async (event) => {
   document
     .querySelector('.new-post-form')
     .addEventListener('submit', newFormHandler);
-  
-  document
-    .querySelector('.post-list')
-    .addEventListener('click', delButtonHandler);
+
+
+const editButton =  document.querySelector('#edit-button')
+
+if (editButton !== null) {
+  editButton.addEventListener('click', editButtonHandler);
+}
+
+const deleteButton =  document.querySelector('#delete-button')
+
+if (deleteButton !== null) {
+  deleteButton.addEventListener('click', delButtonHandler);
+}
   
