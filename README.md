@@ -4,7 +4,7 @@
 
 ## Description
     
-I created finished the back end database and server of an e-commerce website. I designed the server using Express, managed the table with MySQL, and connected the two together with Sequelize. Users are able to GET, POST, UPDATE, and DELETE data fromt the database on the server.
+I created a tech blog using the MVC model of design. MySQL stores the models on the database, while I used bootstrap and handlebars to design the front-end. Users can post, comment, and delete their posts once they've logged in.
     
 ## Table of Contents
 1. [Installation](#installation)
