@@ -4,7 +4,7 @@
 
 ## Description
     
-I created a tech blog using the MVC model of design. MySQL stores the models on the database, while I used bootstrap and handlebars to design the front-end. Users can post, comment, and delete their posts once they've logged in.
+I created a tech blog using the MVC model of design. MySQL stores the models on the database, while I used bootstrap and handlebars to design the front-end. Users can post, comment, and delete their posts if they are logged in.
     
 ## Table of Contents
 1. [Installation](#installation)
@@ -21,7 +21,7 @@ I created a tech blog using the MVC model of design. MySQL stores the models on 
 
 ![Screenshot1](./images/Screenshot1.JPG)
 ![Screenshot2](./images/Screenshot2.JPG)
-![Screenshot3]()
+![Screenshot3](./images/Screenshot3.JPG)
 
 
 ## License
