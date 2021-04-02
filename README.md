@@ -15,7 +15,7 @@ I created a tech blog using the MVC model of design. MySQL stores the models on 
     
 ## Installation
     
-[Deployed Application](https://infinite-springs-87893.herokuapp.com/)
+[Deployed Application](https://rhubarb-cupcake-46842.herokuapp.com/)
     
 ## Usage
 
