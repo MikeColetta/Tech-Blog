@@ -38,13 +38,14 @@ router.put('/:id', withAuth, async (req, res) => {
 
 router.delete('/:id', withAuth, async (req, res) => {
   try {
+    console.log(req.params.id);
     const postData = await Post.destroy({
       where: {
         id: req.params.id,
         user_id: req.session.user_id,
       },
     });
-
+    console.log(postData);
     if (!postData) {
       res.status(404).json({ message: 'No blog post found with this id!' });
       return;
